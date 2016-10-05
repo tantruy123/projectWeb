@@ -1,0 +1,26 @@
+SMAP
+laptops_jsp.java
+JSP
+*S JSP
+*F
++ 0 laptops.jsp
+laptops.jsp
++ 1 header.jsp
+header.jsp
++ 2 body-header.jsp
+body-header.jsp
++ 3 back-to-top.jsp
+back-to-top.jsp
++ 4 footer.jsp
+footer.jsp
+*L
+5,22:52
+5#1,152:74
+26#0,4:225
+5#2,49:229
+29#0,82:277
+5#3,29:359
+110#0,3:388
+5#4,91:391
+112#0,5:481
+*E

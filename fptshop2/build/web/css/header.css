@@ -1,0 +1,387 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 26, 2016, 1:50:15 PM
+    Author     : tan
+*/
+body a:hover{
+    text-decoration: none;
+}
+.fi {
+    background-image: url(../images/fis.png);
+    background-repeat: no-repeat;
+}
+.fs-header {
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background: #fff;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.2);
+}
+.fs-header .fs-log .fi:hover{
+    text-decoration: none;
+}
+
+.fs-header .fs-logo-header{
+
+    max-width: 1200px;
+    min-width: 1024px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+}
+.fs-header .fs-logo-container{
+    width: 243px;
+    height: 65px;
+    position: absolute;
+    top:0;
+    left: -75px;
+
+}
+/*
+        logo
+*/
+.fs-logo {
+    position: relative;
+    margin-top: 0px;
+}
+.fs-logo {
+    margin: 10px;
+    float: left;
+    display: inline-block;
+    width: 140px;
+    height: 37px;
+    background-position: 0 333px;
+}
+/*
+       search
+*/
+.fs-search{
+    float: left;
+
+    margin-top: 18px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    max-width: 260px;
+}
+.fs-ipsearch{
+    height: 30px;
+    font-size: 13px;
+    outline: none;
+    display: table-cell;
+    width: 100%;
+    width: 220px;
+    padding: 0 30px 0 10px;
+    border: 1px solid silver;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.fs-btnsearch{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -2px;
+    height: 32px;
+    width: 34px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #d21111;
+
+}
+.fi-search{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-position: -119px -111px;
+}
+/*
+        menu
+*/
+.fs-menu {
+    margin-top: 5px;
+    float: left;
+    padding-right: 105px;
+    position: relative;
+    margin-left: 10px;
+}
+.fs-menua:link{
+    text-decoration: none;
+}
+.fs-menu a:hover{
+    text-decoration: none;
+}
+
+.fs-menu>li {
+    float: left;
+    text-align: center;
+}
+/*
+    sub menu
+*/
+.sub-menu {
+
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 5px 7px -1px rgba(0,0,0,.4);
+    padding-left: 20px;
+    left: 0;
+    text-align: left;
+    width: 744px;
+    height: 340px;
+    z-index: 9999;
+    border-top: 1px solid #d21212;
+
+}
+.fs-menu>li>a {
+    position: relative;
+    padding: 0 10px 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #211f1f;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fs-menu>li>a>i.fi {
+    display: block;
+    margin: 7px auto;
+    height: 29px;
+}
+.fi-dienthoai {
+    width: 17px;
+    background-position: 0 0;
+}
+.fs-menu>a .fi-dienthoai, .fs-menu>li:hover>a .fi-dienthoai {
+    background-position: 0 -35px;
+
+}
+
+.fs-menu .show .boder-color:hover{
+    color: #D13333;
+    border-bottom: 2px solid #D13333;
+
+}
+
+
+/*
+        sub menu
+mobi css
+*/
+
+
+.fs-menu{
+    position: relative;
+}
+.fshop-nav-submenu .link-top-product  {
+    background: url(../images/cup.png) left center no-repeat;
+    width: 320px;
+    height: 24px;
+    display: block;
+    color: #f17024;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 7px 0 0 33px;
+    margin: 20px auto 0 auto;
+}
+/*
+    hide show menu
+*/
+.fs-menu .show:hover .sub-menu{
+    display: block;
+}
+.fshop-nsm-mobile {
+    padding-top: -100px;
+    background: url(../images/smartphone.png) no-repeat bottom right;
+    min-height: 185px;
+    overflow: hidden;
+}
+
+
+.fshop-nsm-col {
+    float: left;
+    margin-right: 20px;
+}
+.fshop-nsm-title {
+    color: #f36f20;
+    font-size: 14px;
+    padding-bottom: 10px;
+    background: url(../images/bg-sub-ttile.png) repeat-x bottom left;
+}
+
+.fshop-nsm-list {
+    list-style: none;
+    margin-top: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+.fshop-nsm-triple>li {
+    width: 25.3%;
+}
+.fshop-nsm-list>li {
+    line-height: 2em;
+    border-bottom: 1px solid #eaeaea;
+    float: left;
+    margin-right: 10px;
+    height: 2em;
+    overflow: hidden;
+
+
+}
+.fshop-nsm-list>li>a {
+    font-size: 12px;
+    display: block;
+    color: #666666;
+}
+
+
+.fshop-nsm-col50 {
+    width: 50%;
+}
+.fshop-nsm-col {
+    float: left;
+    margin-right: 20px;
+}
+.fshop-nsm-col:last-child {
+    margin-right: 0;
+}
+.fshop-nsm-col20 {
+    width: 20%;
+}
+.fshop-nsm-col {
+    float: left;
+    margin-right: 20px;
+}
+
+
+/*
+        sub menu
+          laptop css
+*/
+.fi-latop {
+    width: 44px;
+    background-position: -83px 0;
+}
+.fi-latop .menu-2{
+    display: none;
+}
+
+.fs-menu>a .fi-latop, .fs-menu>li:hover>a .fi-latop {
+    background-position: -83px -35px;
+}
+.fs-menu>li.active>a .fi-latop, .fs-menu>li:hover>.phone-menu {
+    height: 250px;
+    width: 200px;
+}
+
+.fshop-nsm-laptop {
+    padding-top: -100px;
+    min-height: 185px;
+    overflow: hidden;
+}
+
+
+/* hot line*/
+.fs-header a:link{
+    text-decoration: none;
+}
+.fs-header a:hover{
+    text-decoration: none;
+    color: #211f1f;
+}
+.fs-hotline {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 12px;
+    color: #211f1f;
+    width: 98px;
+    z-index: 1;
+}
+.fi-ffreind {
+    margin-bottom: 2px;
+    display: inline-block;
+    width: 78px;
+    height: 23px;
+    background-position: -313px -70px;
+}
+/*
+    hover a all in menu
+.fs-header a:hover{
+    color: #D13333;
+    border-bottom: 2px solid #d21111;
+}
+*/
+
+/*
+hoi dap */
+
+.fi-hoidap {
+    width: 25px;
+    background-position: -344px 0;
+}
+.fs-menu>a .fi-dienthoai, .fs-menu>li:hover>a .fi-hoidap {
+    background-position: -344px -35px;
+
+}
+/*
+tin hay
+*/
+.fi-tinhay{
+    width: 29px;
+    background-position: -239px 0;
+}
+.fs-menu>a .fi-tinhay, .fs-menu>li:hover>a .fi-tinhay {
+    background-position: -239px -35px;
+}
+/*
+    khuyen mai
+*/
+.fi-khuyenmai{
+    width: 39px;
+    background-position: -197px 0;
+}
+.fs-menu>a .fi-khuyenmai, .fs-menu>li:hover>a .fi-khuyenmai {
+    background-position: -197px -35px;
+}
+/*
+ xa hang
+*/
+.fi-xahang{
+    width: 36px;
+    background-position: -302px 0;
+}
+.fs-menu>a .fi-xahang, .fs-menu>li:hover>a .fi-xahang {
+    background-position: -302px -35px;
+}
+/*
+    doi tra
+*/
+.fi-maydoitra{
+    width: 26px;
+    background-position: -166px 0;
+}
+.fs-menu>a .fi-maydoitra, .fs-menu>li:hover>a .fi-maydoitra {
+    background-position: -166px -35px;
+}
+
+.fs-menu  {
+    list-style-type: none;
+}

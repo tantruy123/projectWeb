@@ -1,0 +1,32 @@
+SMAP
+price_jsp.java
+JSP
+*S JSP
+*F
++ 0 price.jsp
+phones/price.jsp
++ 1 header.jsp
+phones/../header.jsp
++ 2 body-header.jsp
+phones/../body-header.jsp
++ 3 back-to-top.jsp
+phones/../back-to-top.jsp
++ 4 footer.jsp
+phones/../footer.jsp
+*L
+5,23:52
+5#1,17:75
+22:92,3
+23,8:95
+31:103,3
+32,7:106
+39,20:113,3
+59,98:173
+27#0,5:270
+5#2,49:275
+31#0,40:323
+5#3,29:363
+70#0,2:392
+5#4,90:394
+71#0,4:483
+*E

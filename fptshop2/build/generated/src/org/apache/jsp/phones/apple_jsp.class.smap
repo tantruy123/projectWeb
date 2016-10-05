@@ -1,0 +1,26 @@
+SMAP
+apple_jsp.java
+JSP
+*S JSP
+*F
++ 0 apple.jsp
+phones/apple.jsp
++ 1 header.jsp
+phones/../header.jsp
++ 2 body-header.jsp
+phones/../body-header.jsp
++ 3 back-to-top.jsp
+phones/../back-to-top.jsp
++ 4 footer.jsp
+phones/../footer.jsp
+*L
+5,23:52
+5#1,152:75
+27#0,5:226
+5#2,49:231
+31#0,51:279
+5#3,29:330
+81#0,2:359
+5#4,90:361
+82#0,4:450
+*E

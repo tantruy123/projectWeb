@@ -1,0 +1,167 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 26, 2016, 2:50:12 PM
+    Author     : tan
+*/
+
+
+.fs-footer {
+    background: #fff;
+}
+.container-fluid {
+    position: relative;
+}
+.container{
+    width: 1200px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fs-ftrow {
+    margin: 0 -15px;
+    padding: 25px 0 15px;
+}
+.fs-ftcol1 {
+    margin-left: -50px;
+    
+}
+.fs-ftcol {
+    float: left;
+    padding: 0 15px;
+    position: relative;
+}
+
+.fs-ftcol>h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    color: #353535;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+
+.fs-footer ul {
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.fs-ftul li a {
+    display: inline-block;
+    font-size: 14px;
+    color: #3399d2;
+    margin-bottom: 10px;
+}
+.fs-ftul li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.fs-ftr1 a {
+    font-size: 13px;
+    color: #464646;
+    width: 44px;
+    height: 27px;
+    background-image: url(../images/fis.png);
+    background-repeat: no-repeat;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.fs-ftr-vs{
+    background-position: -50px -140px;
+}
+.fs-ftr-mt{
+    background-position: -100px -140px;
+}
+.fs-ftr-atm{
+background-position: -150px -140px;
+}
+.fs-ftr1 span, .fs-ftr1 a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2px 0;
+    padding: 0;
+}
+
+.fs-footer ul {
+    list-style: none;
+}
+.fs-ftr2 {
+    margin: 0 -15px 15px;
+  
+ 
+}
+
+.fs-ftcol2{
+    float:right;
+    margin-top: 12px;
+}
+.fs-ftr2 .fs-li{
+    border-right:1px solid #999999;
+}
+.fs-ftr2 li {
+    float: left;
+    padding: 0 15px;
+    font-size: 13px;
+    color: #464646;
+    position: relative;
+    
+   
+}
+
+
+.fs-ftr2 li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d02c2c;
+   
+}
+
+
+.fs-ftr3 li {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 0;
+}
+.fs-ftr3 li a {
+    display: inline-block;
+    height: 40px;
+    background-image: url(../images/fis.png);
+    background-repeat: no-repeat;
+}
+.fs-ftr-cthuong {
+    width: 130px;
+    background-position: -50px -170px;
+}
+
+.fs-ftr-dmca {
+    width: 92px;
+    background-position: -187px -170px;
+}
+.fs-ftr-sp {
+    width: 80px;
+    background-position: -284px -170px;
+}
+.fs-ftr-thieuvn {
+    width: 92px;
+    background-position: -200px -130px;
+}
+.fs-ftbott {
+    background: #f2f2f2;
+    font-size: 12px;
+    color: #6d6d6d;
+    text-align: center;
+    padding: 10px 15px;
+}

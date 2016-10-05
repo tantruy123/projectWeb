@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 2, 2016, 11:18:02 PM
+    Author     : tan
+*/
+
+#back-to-top {
+    position: fixed;
+    color: red;
+
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+.back{
+    background-image: url(../images/back-to-top.png) ;
+    width: 48px;
+    height: 48px;
+    display: block;
+    text-indent: -999999px;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}

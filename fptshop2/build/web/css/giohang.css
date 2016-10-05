@@ -1,0 +1,255 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 3, 2016, 10:27:00 PM
+    Author     : tan
+*/
+
+.content{
+    width: 945px;
+    height: 933px;
+    margin-left: 100px;
+}
+
+.container h2{
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.check-out-1{
+    width: 860px;
+    height: 193px;
+    border: 1px solid #cccccc;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.check-out-1 .check-out-img{
+    width: 140px;
+    height: 155px;
+    float: left;
+    background-color: red;
+    margin: 20px;
+}
+
+.check-out-1 .check-out-detail{
+    width: 300px;
+    height: 155px;
+    float: left;
+    background-color: #fff;
+    margin: 20px;
+}
+.ck-s1-tit{
+    font-size: 18px;
+    color: #2d2b2b;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.ck-s1-price{
+    display: inline-block;
+    color: #d32f2f;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+
+.check-out-2{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 860px;
+    height: 60px;
+    border: 1px solid #F7F7F7;
+    background-color: #eee;
+
+}
+
+
+.ck-s2-ibb {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin-left: 40px;
+}
+.ng-valid  ul {
+    list-style: none;
+}
+
+.ck-s2-iul {
+    margin: 10px -5px;
+    margin-top: 50px;
+}
+
+
+.ck-s2-iul > li {
+    float: left;
+    width: 33.33%;
+    padding: 0 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.ck-s2-ibb{
+    padding-top: 20px;
+}
+
+
+.ck-s2-frm {
+    position: relative;
+}
+.ck-s2-frm:before {
+    content: '*';
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    color: red;
+}
+.check-out-3{
+    width: 860px;
+    height: 193px;
+    margin-left: 20px;
+
+}
+.check-out-3 ul li{
+    list-style-type: none;
+    width: 220px;
+    margin-right: 25px;
+
+}
+.check-out-3 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.check-out-3 li {
+    float: left;
+}
+
+
+
+.ck-s2-form1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+/*
+    button submit
+*/
+.ck-s3-btn {
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.ck-s3-btn li {
+    display: inline-block;
+    padding: 0 5px;
+}
+.ck-s3-btntt {
+    width: 260px;
+}
+.ck-s3-btntt p {
+    font-size: 15px;
+}
+.ck-s3-btntt p span {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*
+    footer
+*/
+.check-out-footer{
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    color: #373737;
+}
+.check-out-footer span{
+    color: #db2c2c;
+    font-size: 14px;
+    font-style: initial;
+    display: inline-block;
+}
+
+.ck-s2-form .form-control {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+}
+
+/*
+ok
+*/
+.ck-tab2-s1ok p {
+    color: #8ac149;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0;
+}
+.ck-tab2-s1i img{
+    margin-left: 60px;
+}
+.ck-tab2-s1ok{
+    margin-left: 350px;
+}
+.ck-tab2-s1tb{
+    width: 755px;
+    height: 284px;
+}
+.ck-tab2-s1tha {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.ck-tab2-btnrep, .ck-tab2-btnrep:active, .ck-tab2-btnrep:focus, .ck-tab2-btnrep:hover {
+    text-transform: uppercase;
+    background-color: #1c95d1;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+/*
+    error null text
+*/
+label.error {
+    color: #d41212;
+    font-size: 12px;
+ 
+    left: 0;
+    top: 35px;
+}
+
+label .error {
+    display: inline-block;
+    color: #d41212;
+    font-size: 13px;
+}
